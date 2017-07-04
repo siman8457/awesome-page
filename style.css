@@ -1,0 +1,137 @@
+html{
+    font-family: sans-serif, serif;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+p{
+    color: gray;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif, serif;
+}
+header{
+    height: 80px;
+    background-color: white;
+}
+#header-container{
+    width: 75%;
+    margin: auto;
+}
+.col-3{
+    width: 33%;
+    float: left;
+}
+.logo{
+    padding-top: 30px;
+}
+.menu{
+    margin-top: 32px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: 1em;
+    color: gray;
+    padding-right: 25px;
+}
+.getstartedbtn{
+    background-color: limegreen;
+    border-radius: 28px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 26px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    float: right;
+}
+#top-section{
+    background-image: url(images/friends.jpg);
+    height: 740px;
+    border: none;
+}
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1{
+    font-size: 4em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+.play-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding:50px 0 110px 0;
+}
+.main-form h6{
+    font-family: sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+.main-form input{
+    margin: 0;
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    border: none;
+}
+.main-form button{
+    width: 30%;
+    height: 42px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    background-color: limegreen;
+    color: white;
+    border: none;
+}
+#feature-section{
+    padding-top: 100px;
+}
+.feature-section-title{
+    width: 70%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin: auto;
+}
+.feature-section-content{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+.feature-section-content .col-3{
+    padding: 10px;
+    width: 30%;
+}
+.feature-section-content .col-3 img{
+    width: 100%;
+}
+.feature-section-content .col-3 p{
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
